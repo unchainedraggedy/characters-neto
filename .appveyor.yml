@@ -1,7 +1,8 @@
-image: node
-
-environment:
-  nodejs_version: '14'
+image: Ubuntu1804
+stack: node 14
+branches:
+  only: 
+    - master
 
 install:
   - npm install
